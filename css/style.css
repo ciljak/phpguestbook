@@ -1,0 +1,63 @@
+.navbar  {
+    background-color: #ca8e1f;
+    margin-bottom: 25px ;
+    
+}
+
+.navbar-brand {
+   
+    color: white;
+}
+
+/* set midle container to width 580px */
+.container {
+   
+    width: 580px;
+    margin-left: 240px;
+  
+}
+
+/* add margin to both sides in calculator input fields */
+.inputSelector {
+   
+    
+    margin-left: 20px;
+    margin-right: 15px;
+  
+}
+
+
+
+
+/* colorizing backround and change font-size of input number fields name, email and condolence partialy alter bootstrap css */
+.form-control {
+   
+    background-color: rgb(250, 250, 131);
+    font-size:18px
+}
+
+/* aboolute positioning of image on calc frontend - on left side */
+#calcimage {
+   
+    position: absolute;
+  top: 80px;
+  left: 20px;
+  right: 0;
+  
+  
+}
+
+/* change wight of label text before input field of form */
+label {
+   
+    font-weight: bold;
+}
+
+
+.footer {
+    background-color: #ca8e1f;
+    margin-top: 25px;
+    padding-left: 15px;
+    height: auto;
+    
+}
