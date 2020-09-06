@@ -15,7 +15,7 @@ $sql = "CREATE TABLE guestbook(
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     name_of_writer VARCHAR(30) NOT NULL,
     write_date DATETIME NOT NULL,
-    email VARCHAR(70) NOT NULL UNIQUE,
+    email VARCHAR(70) NOT NULL, /*  UNIQUE removed because posts with same e-mails must be anabled */
     message_text TEXT
 )";
 if(mysqli_query($dbc, $sql)){
